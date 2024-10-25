@@ -1,6 +1,8 @@
 # CUDegreePlanner
 An interface for making a 4-year degree plan at CU Boulder
 
+edit done by Daralynn
+
 # Team Number 1
 
 # Team Name :
@@ -22,3 +24,4 @@ A course catalog navigator and builder to create a 4-year plan for any degree of
 
 # Tips
 To merge your branch into main after you have written some code, make a new pull request on GitHub. If everything is green, you can approve the pull yourself and main will be updated with your contributions.
+=======
