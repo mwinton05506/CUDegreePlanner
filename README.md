@@ -25,3 +25,13 @@ A course catalog navigator and builder to create a 4-year plan for any degree of
 # Tips
 To merge your branch into main after you have written some code, make a new pull request on GitHub. If everything is green, you can approve the pull yourself and main will be updated with your contributions.
 =======
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
