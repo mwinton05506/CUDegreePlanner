@@ -1,4 +1,21 @@
 {
-  "projectName": "<CUDegreePlanner-drhode03>",
-  "projectOwner": "<drhode03>"
+  "projectName": "CUDegreePlanner-drhode03",
+  "projectOwner": "drhode03",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "drhode03",
+      "name": "drhode03",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123619542?v=4",
+      "profile": "https://github.com/drhode03",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
 }
