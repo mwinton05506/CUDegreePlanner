@@ -8,7 +8,7 @@
 
 - **[Daralynn Rhode]([link-to-profile](https://github.com/drhode03))**
 - **[Hannah Murtha]([link-to-profile](https://github.com/HannahMurtha))**
-- **[Marcus Winton Need profile link]((link-to-profile))**
+- **[Marcus Winton](([link-to-profile](https://github.com/mwinton05506)))**
 - **[Nicholas Tishkowski]((https://github.com/Sallygator))**
 - **[Truman Davis]((https://github.com/Trust-e))**
 
