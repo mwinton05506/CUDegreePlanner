@@ -1,3 +1,4 @@
+
 # CUDegreePlanner
 An interface for making a 4-year degree plan at CU Boulder
 
@@ -41,3 +42,8 @@ To merge your branch into main after you have written some code, make a new pull
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+# Degree Requirements Page for BA and BS
+
+BA: https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-arts/bachelor-arts-degree-requirements
+BS: https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science/bachelor-science-degree-requirements#HSS
