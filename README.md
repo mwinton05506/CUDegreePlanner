@@ -1,30 +1,54 @@
-
 # CUDegreePlanner
-An interface for making a 4-year degree plan at CU Boulder
+## Group Information
+- **Team Number:** 1, Section 016
+- **Team Name:** Anti-Advisor Program
+- **Application Name:** Auto-Advise
+
+## 👥 Team Members
+
+- **[Daralynn Rhode]([link-to-profile](https://github.com/drhode03))**
+- **[Hannah Murtha]([link-to-profile](https://github.com/HannahMurtha))**
+- **[Marcus Winton Need profile link]((link-to-profile))**
+- **[Nicholas Tishkowski]((https://github.com/Sallygator))**
+- **[Truman Davis]((https://github.com/Trust-e))**
 
 
-# Team Number 1
+## 📋 Description
 
-# Team Name :
-# Anti-Advisor Program
+_An interface to assist CU Boulder Computer Science Undergraduate Students with planning their degree coursework. Studnets will be given a template of classes which they can then swap depending on needed prereqs and coreqs. This application is meant to take away the stress of class selection by streamlining the process. A course catalog navigator and builder to create a 4-year plan for a computer science degree offered at CU Boulder. Users can include preferences and interests, and swap classes as they choose._
 
-# Team Members
-Nicholas Tishkowski
-Marcus Winton
-Daralynn Rhode
-Truman Davis
-Hannah Murtha
+### Features 
 
-# Application Name
-Auto-Advise
+- **list features here when added**
+- **mark as [WIP] if not completed yet**
 
-# Description
+## 🛠 Technology Stack
 
-A course catalog navigator and builder to create a 4-year plan for any degree offered at CU Boulder. Users can include preferences and interests, and swap classes as they choose. 
+- **Frontend:** [list here]
+- **Backend:** [list here]
+- **Database:** [PostgreSQL]
+- **Other Tools and Libraries:** [Add here when needed]
 
-# Tips
-To merge your branch into main after you have written some code, make a new pull request on GitHub. If everything is green, you can approve the pull yourself and main will be updated with your contributions.
-=======
+## ⚙ Prerequisites
+
+To run this application, you’ll need the following software installed:
+
+- **Node.js** - [Download](https://nodejs.org/)
+- **Docker** - [Download](https://www.docker.com/products/docker-desktop/)
+- Add additionals
+  
+
+## 🚀 Getting Started
+
+To set up and run the application locally, follow these steps:
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+2. **Set up Docker:**
+3. ** Launch Docker:**
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
@@ -46,7 +70,8 @@ To merge your branch into main after you have written some code, make a new pull
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-# Degree Requirements Page for BA and BS
+# Other Useful Information 
+## Degree Requirements Page for BA and BS
 
-BA: https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-arts/bachelor-arts-degree-requirements
-BS: https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science/bachelor-science-degree-requirements#HSS
+- BA: https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-arts/bachelor-arts-degree-requirements
+- BS: https://www.colorado.edu/cs/academics/undergraduate-programs/bachelor-science/bachelor-science-degree-requirements#HSS
