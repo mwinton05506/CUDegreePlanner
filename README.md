@@ -33,7 +33,7 @@ To merge your branch into main after you have written some code, make a new pull
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/drhode03"><img src="https://avatars.githubusercontent.com/u/123619542?v=4?s=100" width="100px;" alt="drhode03"/><br /><sub><b>drhode03</b></sub></a><br /><a href="#code-drhode03" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/drhode03"><img src="https://avatars.githubusercontent.com/u/123619542?v=4?s=100" width="100px;" alt="drhode03"/><br /><sub><b>drhode03</b></sub></a><br /><a href="#code-drhode03" title="Code">💻</a> <a href="#doc-drhode03" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Trust-e"><img src="https://avatars.githubusercontent.com/u/123098542?v=4?s=100" width="100px;" alt="Trust-e"/><br /><sub><b>Trust-e</b></sub></a><br /><a href="#code-Trust-e" title="Code">💻</a> <a href="#doc-Trust-e" title="Documentation">📖</a></td>
     </tr>
   </tbody>
