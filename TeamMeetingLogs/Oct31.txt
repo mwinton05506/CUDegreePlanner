@@ -13,5 +13,5 @@ Sample data:
 
 Decisions made
     - BA/BS Computer Science focus, including minor if BA
-    - Make our own database :(    
+    - Make our own database in Python
     
