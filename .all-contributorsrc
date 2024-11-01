@@ -14,7 +14,48 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/123619542?v=4",
       "profile": "https://github.com/drhode03",
       "contributions": [
-        "code"
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "Trust-e",
+      "name": "Trust-e",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123098542?v=4",
+      "profile": "https://github.com/Trust-e",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "sallygator",
+      "name": "Nicholas Tishkowski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/135796239?v=4",
+      "profile": "https://github.com/Sallygator",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "HannahMurtha",
+      "name": "HannahMurtha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/130181381?v=4",
+      "profile": "https://github.com/HannahMurtha",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "mwinton05506",
+      "name": "mwinton05506",
+      "avatar_url": "https://avatars.githubusercontent.com/u/134549996?v=4",
+      "profile": "https://github.com/mwinton05506",
+      "contributions": [
+        "code",
+        "doc"
       ]
     }
   ]
