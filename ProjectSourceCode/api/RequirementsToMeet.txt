@@ -1,2 +1,0 @@
-Required 
-* An interaction between UI and database [Not Started]

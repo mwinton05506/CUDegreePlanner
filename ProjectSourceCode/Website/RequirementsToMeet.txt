@@ -1,6 +1,0 @@
-Required
-* A login Page [Not Started]
-* A registration Page [Not Started]
-* A Home page [Not Started]
-* A User Interface Page [Not Started]
-* A Profile Page [Not Stated]
