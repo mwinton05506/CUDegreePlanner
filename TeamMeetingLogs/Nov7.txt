@@ -8,10 +8,4 @@ Points to include in the minutes would be:
 - Alternative actions/options discussed
 - Follow-up items, including agreed-on roles and responsibilities
 ---------------------------------------------------------------------------------------
-
-Sample data:
-
-Decisions made
-    - BA/BS Computer Science focus, including minor if BA
-    - What database (whats our method of sources)
     
