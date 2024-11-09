@@ -1,0 +1,35 @@
+MEETING ONE (10/31/2024 @ 3:30) and followed up on 11/1/2024 meeting
+
+PROMPT --------------------------------------------------------------------------------
+The minutes of the meeting with your TA every week will be recorded in a file here. 
+You will be updating the same file every week with the latest updates. 
+Points to include in the minutes would be:
+- Decisions made
+- Alternative actions/options discussed
+- Follow-up items, including agreed-on roles and responsibilities
+---------------------------------------------------------------------------------------
+
+Decisions made ---
+The degree planner will only focus on...
+- Current year (2024) only
+- BS Computer Science degree only 
+- NO specialty courses 
+- If users could choose from 6+ classes (such as humanities credits), we will provide a guideline of requirements
+    - This guideline will include credit hours, credit type, and if a lab is needed or suggested
+
+Delegated Tasks...
+- Truman: Create webscraper
+- Marcus: Design and begin formatting database 
+- Hannah: Work on the YAML file
+- Darlynn: General support and sorting out meetings/Work
+Note: all of us kinda worked together on all tasks, work was evenly distrubited and everyone helped out.
+
+Alternative actions/options discussed ---
+- Could focus on BS as well as BA if we have time to expand 
+- The "guideline" will have to be modifed again once we get into the order of classes
+- Different web design ideas
+
+Follow up items ---
+- Figure out webscraping for database 
+- Design databases foundation/format
+- Schedule meeting just for the team
