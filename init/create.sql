@@ -1,6 +1,6 @@
 
 CREATE TABLE IF NOT EXISTS `CourseRegistry` (
-  `ClassCode` INT NOT NULL AUTO_INCREMENT,
+  `CourseCode` INT NOT NULL,
   `Department` CHAR(4) NOT NULL,
   `CreditHours` INT NOT NULL,
   `Description` TEXT NOT NULL,
@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS `CourseRegistry` (
   PRIMARY KEY (`ClassCode`, `Department`)
 );
 CREATE TABLE IF NOT EXISTS `DegreeRequirements` (
-  `MajorCode` INT NOT NULL AUTO_INCREMENT,
+  `MajorCode` INT NOT NULL,
   `ElectiveCode` INT NULL,
   `CoreCode` INT NULL,
   `DegreeRequirementsCol` VARCHAR(45) NULL,
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `User` (
   FOREIGN KEY (`MajorCode`) REFERENCES `DegreeRequirements`(`MajorCode`) ON DELETE CASCADE
 );
 CREATE TABLE IF NOT EXISTS `Prerequisite` (
-  `PrerequisiteID` INT NOT NULL AUTO_INCREMENT,
+  `PrerequisiteID` INT NOT NULL,
   `CourseCode` INT NOT NULL, 
   `PrerequisiteCourseCode` INT NOT NULL, 
   `PrerequisiteCourseDepartment` CHAR(4),
