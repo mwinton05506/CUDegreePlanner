@@ -1,0 +1,141 @@
+Platform: localhost
+Test Database: Database Name [Fill in once name is found]
+Test Tools: Browser, Postman for API testing
+
+Feature 1: User Registration
+
+Acceptance Criteria:
+All mandatory fields (Name, Email, Password) must be filled in.
+User data is stored in the users table in the database.
+User can successfully register and log in with the correct credentials.
+
+Test Cases
+1: Registration with valid data
+
+Data:
+Name: "John Doe"
+Email: "johndoe@example.com"
+Password: "StrongPassword123"
+
+Test Steps:
+Navigate to the registration page.
+Enter valid name, email and password.
+Submit the registration form.
+
+Expected Result: The user should be successfully registered, and the data should be stored in the users table in the [Insert Name] database.
+
+2: Registration with missing fields
+
+Data:
+Name: "John Doe"
+Email: "johndoe@example.com"
+Password: (Empty)
+
+Test Steps:
+Navigate to the registration page.
+Enter valid name and email but leave password empty.
+Submit the registration form.
+
+Expected Result: An error message should appear indicating that all mandatory fields must be filled.
+
+
+
+Feature 2: User Login
+
+Acceptance Criteria:
+A user can login with valid credentials.
+The system should display error messages for invalid or missing credentials.
+
+Test Cases
+1: Login with valid credentials
+
+Data:
+Email: "johndoe@example.com"
+Password: "StrongPassword123"
+
+Test Steps:
+Navigate to the login page.
+Enter valid email and password.
+Submit the login form.
+
+Expected Result: The user should be logged in successfully and redirected to the home page.
+
+2: Login with invalid credentials
+
+Data:
+Email: "johndoe@example.com"
+Password: "WrongPassword123"
+Test Steps:
+Navigate to the login page.
+Enter valid email but incorrect password.
+Submit the login form.
+
+Expected Result: The login should fail with an error message indicating incorrect credentials.
+
+3: Login with missing credentials
+
+Test Data:
+Email: ""
+Password: ""
+Test Steps:
+Navigate to the login page.
+Leave both email and password fields empty.
+Submit the login form.
+
+Expected Result: The login should fail with an error message indicating that both fields are required.
+
+
+
+Feature 3: Degree Layout
+
+Acceptance Criteria:
+Users should be able to drag and drop courses into the template.
+The system should allow saving of progress and update the database accordingly.
+
+Test Cases
+1: Successfully drag and drop a course to the template
+
+Data:
+Course: "CSCI 3308"
+
+Test Steps:
+Log in to the application.
+Navigate to the degree layout page.
+Drag the course "CSCI 3308" to the template outline.
+Drop the course in the desired location.
+
+Expected Result: The course should be successfully placed in the degree template and the layout should be updated. Any prerequs should be backfilled.
+
+Test Case 3.2: Attempt to drag and drop a course with out sufficient prereq space
+
+Data:
+Invalid course: "CSCI 3308"
+
+Test Steps:
+Log in to the application.
+Navigate to the degree layout page.
+Attempt to drag and drop "CSCI 3308" into the first semester.
+
+Expected Result: An error message should appear indicating that the course cannot be placed there.
+
+3: Save degree layout
+
+Data:
+Courses added to the template (e.g., "CSCI 1300", "CSCI 3308")
+
+Test Steps:
+Complete dragging and dropping courses into the template.
+Click on the "Save" button.
+
+Expected Result: The layout should be saved successfully and the progress stored in the database.
+
+
+
+User Acceptance Testers
+
+Testers: Students studying for a Computer Science Degree at CU as well as undeclared Freshman who have an interest in Comp Sci. Preferably one student from each year.
+Freshman Declared Comp Sci BS
+Freshman undeclared 
+Sophomore
+Junior
+Senior 
