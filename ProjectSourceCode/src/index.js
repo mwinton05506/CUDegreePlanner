@@ -77,7 +77,7 @@ app.use(
 // TODO - Include your API routes here
 app.get('/', async (req, res) => 
 {
-  res.redirect('/login');
+  res.render('pages/home');
 });
 
 //Register ----------------------------------------------------------------------------------------------
