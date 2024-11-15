@@ -25,5 +25,18 @@
     {{!-- Custom Scripting --}}
     <script src="CUDegreePlanner\ProjectSourceCode\src\resources\js\script.js"></script>
 
+    {{!-- Jquery Scripting --}}
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+        $( "#sortable1, #sortable2" ).sortable({
+        connectWith: ".connectedSortable"
+        }).disableSelection();
+    } );
+    </script>
+
+
 </head>
 <body class="h-100 d-flex flex-column">
