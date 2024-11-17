@@ -1,40 +1,46 @@
+-- -----------------------------------------------------
+-- Table `courseregistry`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `courseregistry` ;
 
-CREATE TABLE IF NOT EXISTS `CourseRegistry` (
-  `CourseCode` INT NOT NULL,
+CREATE TABLE IF NOT EXISTS `courseregistry` (
+  `ClassCode` INT NOT NULL AUTO_INCREMENT,
   `Department` CHAR(4) NOT NULL,
   `CreditHours` INT NOT NULL,
-  `Description` TEXT NOT NULL,
-  `Name` VARCHAR(100) NOT NULL,
-  PRIMARY KEY (`ClassCode`, `Department`)
-);
-CREATE TABLE IF NOT EXISTS `DegreeRequirements` (
-  `MajorCode` INT NOT NULL,
-  `ElectiveCode` INT NULL,
-  `CoreCode` INT NULL,
-  `DegreeRequirementsCol` VARCHAR(45) NULL,
-  PRIMARY KEY (`MajorCode`),
-  FOREIGN KEY (`ElectiveCode`) REFERENCES `CourseRegistry`(`ClassCode`) ON DELETE SET NULL,
-  FOREIGN KEY (`CoreCode`) REFERENCES `CourseRegistry`(`ClassCode`) ON DELETE SET NULL
-);
-CREATE TABLE IF NOT EXISTS `User` (
+  `Description` MEDIUMTEXT NOT NULL,
+  `Name` VARCHAR(200) NOT NULL,
+  `PreRecs` MEDIUMTEXT NULL,
+  `CountsFor` VARCHAR(45) NULL,
+  `Core` INT NOT NULL,
+  `Foundational` INT NOT NULL,
+  `ComputerScience` INT NOT NULL,
+  PRIMARY KEY (`ClassCode`, `Department`));
+
+
+-- -----------------------------------------------------
+-- Table `degreerequirements`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `degreerequirements` ;
+
+CREATE TABLE IF NOT EXISTS `degreerequirements` (
+  `MajorCode` INT NOT NULL AUTO_INCREMENT,
+  `TotalCredits` INT NOT NULL,
+  `Rerquirements` MEDIUMTEXT NOT NULL,
+  PRIMARY KEY (`MajorCode`));
+
+
+-- -----------------------------------------------------
+-- Table `user`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `user` ;
+
+CREATE TABLE IF NOT EXISTS `user` (
   `UserId` INT NOT NULL AUTO_INCREMENT,
-  `Name` VARCHAR(45) NOT NULL,
-  `Email` VARCHAR(45) NOT NULL,
+  `Name` VARCHAR(200) NOT NULL,
+  `Email` VARCHAR(200) NOT NULL,
   `Password` BINARY(64) NOT NULL,
   `Degree` VARCHAR(45) NOT NULL,
   `Major` VARCHAR(45) NOT NULL,
-  `Minor` VARCHAR(45) NULL,
   `MajorCode` INT NOT NULL,
-  `MinorCode` INT NULL,
-  PRIMARY KEY (`UserId`),
-  FOREIGN KEY (`MajorCode`) REFERENCES `DegreeRequirements`(`MajorCode`) ON DELETE CASCADE
-);
-CREATE TABLE IF NOT EXISTS `Prerequisite` (
-  `PrerequisiteID` INT NOT NULL,
-  `CourseCode` INT NOT NULL, 
-  `PrerequisiteCourseCode` INT NOT NULL, 
-  `PrerequisiteCourseDepartment` CHAR(4),
-  PRIMARY KEY (`PrerequisiteID`),
-  FOREIGN KEY (`CourseCode`) REFERENCES `CourseRegistry`(`ClassCode`) ON DELETE CASCADE,
-  FOREIGN KEY (`PrerequisiteCourseCode`) REFERENCES `CourseRegistry`(`ClassCode`) ON DELETE CASCADE
-);
+  PRIMARY KEY (`UserId`));
+
